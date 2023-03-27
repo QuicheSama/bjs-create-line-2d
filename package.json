@@ -13,6 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@babylonjs/core": "^5.52.0",
 		"@nil-/doc": "^0.2.57",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
@@ -30,7 +31,8 @@
 		"vite": "^4.2.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module",
-	"dependencies": {
-	}
+	"peerDependencies": {
+		"@babylonjs/core": "^5.52.0"
+	},
+	"type": "module"
 }

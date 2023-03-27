@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@babylonjs/core': ^5.52.0
   '@nil-/doc': ^0.2.57
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.5.0
@@ -19,6 +20,7 @@ specifiers:
   vitest: ^0.25.3
 
 devDependencies:
+  '@babylonjs/core': 5.52.0
   '@nil-/doc': 0.2.57_svelte@3.57.0
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.14.0
   '@sveltejs/kit': 1.14.0_svelte@3.57.0+vite@4.2.1
@@ -37,6 +39,10 @@ devDependencies:
   vitest: 0.25.8
 
 packages:
+
+  /@babylonjs/core/5.52.0:
+    resolution: {integrity: sha512-BSC4f2vB96elvhJqdiIBJ/Mdn7pHRVg/KjYopY8vs6WgMpn34IDvvrpG1IIbOOzALpnvBMl8xao3ugFSmVmkpg==}
+    dev: true
 
   /@esbuild/android-arm/0.17.14:
     resolution: {integrity: sha512-0CnlwnjDU8cks0yJLXfkaU/uoLyRf9VZJs4p1PskBr2AlAHeEsFEwJEo0of/Z3g+ilw5mpyDwThlxzNEIxOE4g==}
