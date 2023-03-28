@@ -1,5 +1,5 @@
 # bjs-create-line-2d
-> BabylonJS flavored [polyline-miter-util].
+> [BabylonJS] flavored [polyline-miter-util].
 
 ## Developing
 
@@ -17,3 +17,4 @@ npm run build
 ```
 
 [polyline-miter-util]: https://github.com/mattdesl/polyline-miter-util
+[babylonjs]: https://www.babylonjs.com/
