@@ -1,7 +1,6 @@
 {
 	"name": "bjs-create-line-2d",
 	"version": "0.0.2",
-	"private": true,
 	"type": "module",
 	"files": [
 		"/dist/*.js",
