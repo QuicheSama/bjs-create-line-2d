@@ -1,11 +1,12 @@
 {
 	"name": "bjs-create-line-2d",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"type": "module",
 	"files": [
 		"/dist/*.js",
 		"/dist/*.ts"
 	],
+	"license": "MIT",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
