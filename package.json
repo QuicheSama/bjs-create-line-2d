@@ -3,10 +3,13 @@
 	"version": "0.0.2",
 	"private": true,
 	"type": "module",
-	"files": ["dist"],
+	"files": [
+		"/dist/*.js",
+		"/dist/*.ts"
+	],
 	"exports": {
 		".": {
-			"types": "./dist/index.d.js",
+			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js"
 		}
 	},
