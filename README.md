@@ -1,6 +1,5 @@
 # bjs-create-line-2d
-
-BabylonJS flavored [polyline-miter-util].
+> BabylonJS flavored [polyline-miter-util].
 
 ## Developing
 
@@ -13,14 +12,8 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
-
 ```bash
 npm run build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
 [polyline-miter-util]: https://github.com/mattdesl/polyline-miter-util

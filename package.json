@@ -2,6 +2,11 @@
 	"name": "bjs-create-line-2d",
 	"version": "0.0.3",
 	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/QuicheSama/bjs-create-line-2d.git"
+	},
+	"keywords": ["babylonjs"],
 	"files": [
 		"/dist/*.js",
 		"/dist/*.ts"
