@@ -2,22 +2,24 @@
 	"name": "bjs-create-line-2d",
 	"version": "0.0.3",
 	"type": "module",
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"types": "./lib/index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/QuicheSama/bjs-create-line-2d.git"
 	},
-	"keywords": ["babylonjs"],
 	"files": [
 		"/dist/*.js",
 		"/dist/*.ts"
 	],
-	"license": "MIT",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js"
 		}
 	},
+	"keywords": ["babylonjs"],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-package",
